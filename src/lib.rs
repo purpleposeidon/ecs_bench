@@ -8,7 +8,7 @@ pub mod pos_vel {
     pub const N_POS_PER_VEL: usize = 10;
 
     /// Entities with position component only.
-    pub const N_POS: usize = 10000;
+    pub const N_POS: usize = 100000;
 
     #[derive(Copy, Clone, Debug, PartialEq, Serialize, Deserialize)]
     pub struct Position {

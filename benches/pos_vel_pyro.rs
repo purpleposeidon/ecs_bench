@@ -32,8 +32,8 @@ fn build() -> World {
         .filter(|i| i % N_POS_PER_VEL == 0)
         .map(|_| (Position { x: 0.0, y: 0.0 }, Velocity { dx: 0.0, dy: 0.0 }));
 
-    world.add_entity(only_pos);
-    world.add_entity(pos_vel);
+    world.append_components(only_pos);
+    world.append_components(pos_vel);
     world
 }
 
