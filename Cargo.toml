@@ -16,4 +16,5 @@ trex = "0.2.0"
 froggy = "0.3"
 constellation = "0.2"
 pyro = "0.2"
-
+v11 = "0.0.5"
+v11_macros = "0.0.5"
