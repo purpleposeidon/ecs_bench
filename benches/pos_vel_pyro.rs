@@ -25,7 +25,6 @@ fn build() -> World {
     let only_pos = (0..N_POS).map(|_| {
         (
             Position { x: 0.0, y: 0.0 },
-            (), // Bogus component because pyro can't add a single component yet
         )
     });
     let pos_vel = (0..N_POS)
