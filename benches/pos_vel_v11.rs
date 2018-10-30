@@ -20,6 +20,8 @@ table! {
 table! {
     #[kind = "consistent"]
     [BENCH/velocities] {
+        #[foreign_auto]
+        #[index]
         posid: [positions::RowId; VecCol<positions::RowId>],
         v: [Velocity; VecCol<Velocity>],
     }
@@ -58,6 +60,8 @@ fn build() -> Universe {
                 }
             })
         );
+        velocities.flush(&universe, ::v11::event::CREATE);
+        positions.flush(&universe, ::v11::event::CREATE);
     }
     universe
 }
