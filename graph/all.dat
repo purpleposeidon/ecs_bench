@@ -1,7 +1,7 @@
  all pos_vel_build pos_vel_update
- ecs 14997 986 2070 38
- specs 3124 318 43 0
- trex 10150 559 1541 39
- pyro 2582 103 20 0
- froggy 4876 183 66 2
- constellation 2251 361 71 1
+ ecs 15847 394 2223 28
+ specs 3502 50 47 0
+ trex 11847 673 1862 143
+ pyro 2687 118 22 0
+ froggy 5221 89 72 0
+ constellation 2457 511 81 3
